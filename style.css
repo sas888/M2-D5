@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.addMemberContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.memberBtn {
+  display: flex;
+}
+
+.teamsBtn {
+  display: flex;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+label {
+  display: block;
+}
+
+#teamsLabel {
+  border: none;
+  max-width: 40px;
+}
+
+.memberNameButton {
+  border-radius: 0 5px 5px 0;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
